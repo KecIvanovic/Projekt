@@ -1,0 +1,104 @@
+body, html {
+	margin: 0;
+	background-color: #c49252d2;
+	font-size: 16px;
+	width: 100%;
+    font-family: Helvetica, sans-serif;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.banner {
+	background-image: url("https://images.contentstack.io/v3/assets/blt0952b6ad20dfb00a/bltfc4fbfd9fa0e1348/6141044d64c8007a9bde99c2/Arcane--Social-media_fb.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+}
+li {
+	float: left;
+	font-size: 18px;
+}
+li a {
+	display: block;
+	color: rgba(255, 255, 255, 0.966);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+h1 {
+    font-size: 2em;
+    padding: 10px;
+    margin: 15px;
+	color: rgb(0, 0, 0)
+}
+h2,h3 {
+    font-size: 1.8em;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+main {
+	padding-left: 10px;
+}
+main a {
+	color: #c22f2f;
+	text-decoration: none;
+}
+main a:hover {
+	color: rgb(34, 76, 124);
+	text-decoration: underline;
+}
+figure {
+	padding: 10px;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 30%;
+	border: 2px solid rgb(0, 0, 0);
+}
+figcaption {
+	font-size: 90%;
+	color: rgb(0, 0, 0);
+}
+img {
+	width: 100%;
+}
+p {
+	color: rgb(0, 0, 0);
+	padding-left: 10px;
+}
+footer {
+	background-color: rgb(0, 0, 0);
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+@media only screen and (max-width: 600px) {
+    article {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    article {
+        width: 800px;
+    }
+}
