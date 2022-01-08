@@ -1,0 +1,43 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+
+header {
+	display: block;
+	width: 100%;
+}
+
+.banner {
+	background-image: url("https://images.contentstack.io/v3/assets/blt0952b6ad20dfb00a/bltfc4fbfd9fa0e1348/6141044d64c8007a9bde99c2/Arcane--Social-media_fb.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+li a:hover {
+	background-color: #111;
+}
