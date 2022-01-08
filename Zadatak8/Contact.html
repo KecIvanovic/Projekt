@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Arcane league of legends">
+    <meta name="keywords" content="Arcane, LOL, series, TV show">
+    <meta name="author" content="Karlo Ivanović">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane</title>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+		<h1>Contact</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.59300564247!2d-123.42020298433273!3d48.65590067926822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f6877a2a9be51%3A0xd8de578235e631c2!2sParking%20lot%2C%2010114%20McDonald%20Park%20Rd%20%23220%2C%20Sidney%2C%20BC%20V8L%205W5%2C%20Kanada!5e0!3m2!1shr!2shr!4v1641493192328!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<form action="send-contact.php" id="cform" name="cform" method="POST">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name" required>
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+				
+				<label for="lname">E-mail</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail" required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Croatia" selected>Croatia</option>	
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Greece">Greece</option>
+                  <option value="Hungary">Hungary</option>
+                  <option value="Iceland">Iceland</option>
+                  <option value="India">India</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Luxembourg">Luxembourg</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Monaco">Monaco</option>
+                  <option value="Netherlands">Netherlands</option>
+                  <option value="Norway">Norway</option>
+                  <option value="Poland">Poland</option>
+                  <option value="Portugal">Portugal</option>
+                  <option value="Serbia">Serbia</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Slovakia">Slovakia</option>
+                  <option value="Slovenia">Slovenia</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Switzerland">Switzerland</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="United States">United States</option>
+                  <option value="Uruguay">Uruguay</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+    <footer>
+        <p>Copyright &copy; 2021 Karlo Ivanović &commat; projekt. <a href="https://github.com/KecIvanovic?tab=repositories" target="_blank"><img src="https://github.com/asimec1/Projektni-zadatak-HTML-CSS/blob/master/Projektni%20zadatak%204%20(html5,%20css)/img/GitHub-Mark-Light-32px.png?raw=true" title="Github" alt="Github"></a></p>
+    </footer>
+</body>
+</html>
